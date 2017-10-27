@@ -1,0 +1,8 @@
+/* SelectInterface */
+si swd
+device nrf51822
+/* unit: khz */
+speed 1000
+loadbin b.bin 0x00000000
+r
+q
